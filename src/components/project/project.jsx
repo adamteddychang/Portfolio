@@ -1,6 +1,6 @@
 import './project.css'
 
-const Project = (img,link) => {
+const Project = ({img,link}) => {
   return (
     <div className='p'>
       <div className="p-browser">
