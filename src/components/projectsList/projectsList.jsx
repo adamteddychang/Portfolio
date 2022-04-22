@@ -1,11 +1,11 @@
 import Project from '../project/project'
 import './projectsList.css'
-import { projects } from '../../data'
+import projects from '../../data'
 
 const ProjectsList = () => {
-  // projects.map((item)=>(
-  //   console.log(item.img)
-  // ))
+  projects.forEach((element) => {
+    console.log(element.link); 
+});
 
   return (
     <div className='pl'>
@@ -18,14 +18,14 @@ const ProjectsList = () => {
 
       </div>
       <div className="pl-list">
-        {projects.map((proj) => (
-          <Project key={proj.id} img={proj.img} link={proj.link} />
+        {projects.map((proj,index) => (
+          <Project key={index} img={'is a string'} link={proj.link} />
 
         ))}
       </div>
     </div>
 
-  )
-}
+  );
+};
 
 export default ProjectsList

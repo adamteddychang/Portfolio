@@ -5,10 +5,10 @@ import ProjectsList from './components/projectsList/projectsList';
 
 function App() {
   return (
-    <div >
-      <Intro/>
-      <About/>
-      <ProjectsList/>
+    <div>
+      <Intro />
+      <About />
+      <ProjectsList />
     </div>
   );
 }

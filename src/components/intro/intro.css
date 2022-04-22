@@ -46,13 +46,16 @@
   33% {
     transform: translateY(-50px);
   }
+
   66% {
     transform: translateY(-100px);
   }
+
   100% {
     transform: translateY(-150px);
   }
 }
+
 .i-title-item {
   height: 50px;
   font-size: 30px;
