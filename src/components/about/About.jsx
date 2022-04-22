@@ -17,7 +17,7 @@ const About = () => {
 
       </p>
       <p className="a-desc">
-        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste tempore odit quos minus consequuntur quasi, blanditiis repudiandae totam corrupti eos distinctio eveniet! Quam, error maiores aliquam quibusdam sequi cupiditate!
       </p>
     </div>
       </div>

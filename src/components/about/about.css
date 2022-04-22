@@ -37,3 +37,7 @@ overflow: hidden;
   object-fit: cover;
   filter: grayscale(100%);
 }
+
+.a-title {
+  font-weight: 400;
+}
