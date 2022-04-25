@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    img: 'https://avatars.githubusercontent.com/u/63560332?v=4',
+    img: 'https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/107/posts/26488/final_image/41-space-scrolling-background850-2.jpg',
     link: 'https://github.com/adamteddychang',
   },
   {
