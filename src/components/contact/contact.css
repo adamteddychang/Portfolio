@@ -5,7 +5,7 @@
 .c-bg {
   width: 20px;
   height: 100vh;
-  background-color: green;
+  background-color: lightgreen;
   position: absolute;
 }
 
@@ -73,8 +73,46 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: green;
-  color: #fff;
+  background-color: #90EE90;
+  color: #333;
   font-weight: 500;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 7rem;
+    height: 40px;
+    margin: 0.4em;
+    margin-left: 0;
+  }
+
+  .inp-email {
+    width: 15.4rem;
+    margin-right: 0;
+  }
 }

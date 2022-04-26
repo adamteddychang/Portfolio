@@ -48,19 +48,35 @@ const Contact = () => {
             <div className="c-info-item">
 
               <img src={darkMode ? Linkedindk : Linkedin} alt="" className="c-icon" />
-              <a href="linkedin.com/in/adamteddychang">adamteddychang</a>
+              <a className="c-link" href="https://linkedin.com/in/adamteddychang" target="_blank" rel="noreferrer" style={{ color: darkMode && '#fff' }}>adamteddychang</a>
             </div>
             <div className="c-info-item">
               <img src={darkMode ? Phonedk : Phone} alt="" className="c-icon" />
-              +3630-210-9114
+              <a className="c-link" href="tel:+36302109114" style={{ color: darkMode && '#fff' }}>+3630-210-9114</a>
             </div>
             <div className="c-info-item">
               <img src={darkMode ? Emaildk : Email} alt="" className="c-icon" />
-              adamchang0725@gmail.com
+              <a
+                href="mailto:adamchang0725@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: darkMode && '#fff' }}
+                className="c-link"
+              >
+                adamchang0725@gmail.com
+              </a>
             </div>
             <div className="c-info-item">
               <img src={darkMode ? Githubdk : Github} alt="" className="c-icon" />
-              <a href="github.com/adamteddychang">@adamteddychang</a>
+              <a
+                className="c-link"
+                href="https://github.com/adamteddychang"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: darkMode && '#fff' }}
+              >
+                @adamteddychang
+              </a>
             </div>
           </div>
 
@@ -78,7 +94,7 @@ const Contact = () => {
             <input style={{ backgroundColor: darkMode && '#333' }} type="text" placeholder="Name" name="user_name" />
             <input style={{ backgroundColor: darkMode && '#333' }} type="text" placeholder="Subject" name="user_subject" />
 
-            <input style={{ backgroundColor: darkMode && '#333' }} type="text" placeholder="Email" name="user_email" />
+            <input style={{ backgroundColor: darkMode && '#333' }} type="text" placeholder="Email" name="user_email" className="inp-email" />
             <textarea style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} rows="5" placeholder="Message" name="message" />
             <button type="submit">Submit</button>
             <p className="c-message">{done && 'Thank you for your email, I will reach out within 48 hours.'}</p>
