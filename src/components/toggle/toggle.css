@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .t-icon {
@@ -24,5 +25,4 @@
   border-radius: 50%;
   background-color: #999;
   position: absolute;
-  cursor: pointer;
 }
