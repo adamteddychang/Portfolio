@@ -41,3 +41,35 @@
 .a-title {
   font-weight: 400;
 }
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-right {
+    padding: 0 2rem;
+  }
+
+  .a-card {
+    height: 30vh;
+  }
+
+  .a-card.bg {
+    display: none;
+  }
+
+  .a-title {
+    text-align: center;
+  }
+
+  p {
+    line-height: 25px;
+  }
+}

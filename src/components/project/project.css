@@ -33,3 +33,10 @@
   transform: translateY(-60%);
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+}

@@ -13,12 +13,15 @@
     "sourceType": "module"
   },
   "extends": ["airbnb", "plugin:react/recommended"],
-  "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "no-param-reassign": 0,
+    "react/destructuring-assignment":"off",
+    "react/prop-types":"off",
+    "import/extensions":"off"
     },
   "ignorePatterns": [
     "dist/",
