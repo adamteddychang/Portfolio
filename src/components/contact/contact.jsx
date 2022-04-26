@@ -1,5 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './contact.css';
+import emailjs from '@emailjs/browser';
 import Phone from '../../img/phone.png';
 import Email from '../../img/email.png';
 import Github from '../../img/github.png';
@@ -7,9 +8,26 @@ import Linkedin from '../../img/linkedin.png';
 
 const Contact = () => {
   const formRef = useRef();
+  const [done, setDone] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs
+      .sendForm('service_phnpycf',
+        'template_j7o83sg',
+        formRef.current, 'jNwdS0SuM-9tJWydx')
+      .then((result) => {
+        console.log(result.text);
+        setDone(true);
+      }, (error) => {
+        console.log(error.text);
+      });
+    const inputs = document.querySelectorAll('input,textarea');
+    console.log(inputs);
+    // eslint-disable-next-line
+    inputs.forEach((i) => {
+      i.value = '';
+    });
   };
   return (
     <div className="c">
@@ -56,6 +74,8 @@ const Contact = () => {
             <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message" name="message" />
             <button type="submit">Submit</button>
+            <p className="c-message">{done && 'Thank you for your email, I will reach out within 48 hours.'}</p>
+
           </form>
         </div>
       </div>
