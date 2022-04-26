@@ -1,9 +1,9 @@
 import { useContext } from 'react';
 import './App.css';
 import About from './components/about/About';
-import Contact from './components/contact/Contact.jsx';
+import Contact from './components/contact/Contact';
 import Intro from './components/intro/Intro';
-import ProjectsList from './components/projectsList/ProjectsList.jsx';
+import ProjectsList from './components/projectsList/ProjectsList';
 import Toggle from './components/toggle/Toggle';
 import { ThemeContext } from './context';
 

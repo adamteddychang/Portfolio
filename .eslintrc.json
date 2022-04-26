@@ -20,7 +20,8 @@
     "no-shadow": "off",
     "no-param-reassign": 0,
     "react/destructuring-assignment":"off",
-    "react/prop-types":"off"
+    "react/prop-types":"off",
+    "import/extensions":"off"
     },
   "ignorePatterns": [
     "dist/",
