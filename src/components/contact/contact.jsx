@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">
-            Let&apos;s discuss your project
+            Contact me!
           </h1>
           <div className="c-info">
             <div className="c-info-item">
@@ -83,12 +83,12 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What&apos;s your story?</b>
-            Get in touch! Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit.
-            Dignissimos, saepe natus eum animi deserunt quaerat esse dicta veritatis
-            repellendus eligendi.
-            Hic, a. Iste mollitia sunt deserunt ex non culpa numquam.
+            <b>Interested in my skills?</b>
+            <br />
+            Fill out the contact form and I will get back in touch!
+            <br />
+            Alternatively, feel free to contact me via the links on the left.
+
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Name" name="user_name" />
