@@ -95,7 +95,7 @@ const Contact = () => {
             <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Subject" name="user_subject" />
 
             <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Email" name="user_email" className="inp-email" />
-            <textarea style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} rows="5" placeholder="Message" name="message" />
+            <textarea style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} rows="7" placeholder="Message" name="message" />
             <button type="submit">Submit</button>
             <p className="c-message">{done && 'Thank you for your email, I will reach out within 48 hours.'}</p>
 
