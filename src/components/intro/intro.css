@@ -43,16 +43,12 @@
 }
 
 @keyframes move {
-  33% {
+  50% {
     transform: translateY(-50px);
   }
 
-  66% {
-    transform: translateY(-100px);
-  }
-
   100% {
-    transform: translateY(-150px);
+    transform: translateY(-100px);
   }
 }
 
