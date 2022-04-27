@@ -6,11 +6,9 @@ const ProjectsList = () => (
   <div className="pl">
     <div className="pl-texts">
 
-      <h1 className="pl-title">Create and Inspire</h1>
+      <h1 className="pl-title">Check out my work!</h1>
       <p className="pl-desc">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Quam accusantium enim a optio cum porro odio eius vel,
-        totam et error itaque laudantium ullam aliquam eum facere cupiditate in iure.
+        Feel free to click on my projects to check them out!
       </p>
 
     </div>
