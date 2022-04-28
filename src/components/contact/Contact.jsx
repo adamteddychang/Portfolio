@@ -36,6 +36,7 @@ const Contact = () => {
       i.value = '';
     });
   };
+
   return (
     <div className="c">
       <div className="c-bg">.</div>
@@ -91,11 +92,11 @@ const Contact = () => {
 
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Name" name="user_name" />
-            <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Name" name="user_name" className={darkMode ? 'inp-d' : 'inp-l'} />
+            <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Subject" name="user_subject" className={darkMode ? 'inp-d' : 'inp-l'} />
 
-            <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Email" name="user_email" className="inp-email" />
-            <textarea style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} rows="7" placeholder="Message" name="message" />
+            <input style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} type="text" placeholder="Email" name="user_email" id="inp-email" className={darkMode ? 'inp-d' : 'inp-l'} />
+            <textarea style={{ backgroundColor: darkMode && '#333', color: darkMode && '#fff' }} rows="7" placeholder="Message" name="message" className={darkMode ? 'inp-d' : 'inp-l'} />
             <button type="submit">Submit</button>
             <p className="c-message">{done && 'Thank you for your email, I will reach out within 48 hours.'}</p>
 
