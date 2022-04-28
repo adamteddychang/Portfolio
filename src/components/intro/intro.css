@@ -28,6 +28,10 @@
   font-weight: 300;
 }
 
+p {
+  font-size: 27px;
+}
+
 .i-name {
   font-size: 60px;
 }
@@ -39,20 +43,16 @@
 
 .i-title-wrapper {
   height: 100%;
-  animation: move 8s ease-in-out infinite alternate;
+  animation: move 6s ease-in-out infinite alternate;
 }
 
 @keyframes move {
-  33% {
+  50% {
     transform: translateY(-50px);
   }
 
-  66% {
-    transform: translateY(-100px);
-  }
-
   100% {
-    transform: translateY(-150px);
+    transform: translateY(-100px);
   }
 }
 
