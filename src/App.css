@@ -5,5 +5,9 @@
 }
 
 .c-link:hover {
-  background-color: lightgreen;
+  background-color: #90ee90;
+}
+
+::placeholder {
+  color:#90ee90;
 }
