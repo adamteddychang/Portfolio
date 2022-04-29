@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+<h1> Hi, I'm You-Wei (Adam), Chang</h1>
+<img align='right' src="https://user-images.githubusercontent.com/63560332/139526775-c5ba01e1-6210-46af-94a7-83939c8542dc.gif" height="300">
+<h3>Welcome to my world!</h3>
+<h2>React Redux, Ruby on Rails Software Developer | Seeking Full-Time Software Engineer Job| JavaScript, React, React Redux | Microverse Grad</h2>
+ 
+[![Linkedin Badge](https://img.shields.io/badge/-Adam%20Chang-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/adamteddychang/)](https://www.linkedin.com/in/adamteddychang/)
+[![Twitter Badge](https://img.shields.io/badge/-@AdamChang3_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/AdamChang3)](https://twitter.com/AdamChang3)
+[![](https://img.shields.io/badge/-Portfolio-brightgreen)](https://adamteddychang.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <img src="https://media.giphy.com/media/LVrHEIxyJRaq89XlwN/giphy.gif" width="80"> Here are some things about me
 
-## Available Scripts
 
-In the project directory, you can run:
+-  I'm a Full Stack developer who is passionate about Web Development.
 
-### `npm start`
+-  I'm constantly learning new languages and creating my own personal projects. Also, I really enjoy attending tech related events.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  I speak fluent Mandarin(Chinese) and English.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- <img src="https://media.giphy.com/media/quqvgJL5aA4edF2eDX/giphy.gif" height="40"> I have a cat. 
 
-### `npm test`
+-  I love walking in the forest and watching movies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  I’m looking forward to collaborate on any Open Source project.
 
-### `npm run build`
+-  How to reach me: use the badges above 😃
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![adamteddychang github stats](https://github-readme-stats.vercel.app/api?username=adamteddychang&show_icons=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⭐️ From [adamteddychang](https://github.com/adamteddychang)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
