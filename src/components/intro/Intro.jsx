@@ -17,7 +17,7 @@ const Intro = () => (
         <p className="i-desc">
           I am a Full-Stack Developer specializes in developing and
           creating web applications for all kinds of clients. I can create modern,
-          stylish website and application that will be suitable for your needs.
+          stylish websites and applications that will be suitable for your needs.
 
         </p>
       </div>
