@@ -5,6 +5,8 @@ import Github from '../../img/github.png';
 import Linkedin from '../../img/linkedin.png';
 import Linkedindk from '../../img/linkedin-color.png';
 import Githubdk from '../../img/github-color.png';
+import resumedk from '../../img/resumedk.png';
+import resume from '../../img/resumel.png';
 import { ThemeContext } from '../../context';
 
 const Intro = () => {
@@ -52,6 +54,18 @@ const Intro = () => {
                 style={{ color: darkMode && '#fff' }}
               >
                 <img src={darkMode ? Githubdk : Github} alt="" className="i-icon" />
+              </a>
+            </div>
+            <div className="i-info-item">
+
+              <a
+                className="i-link"
+                href="https://drive.google.com/uc?export=download&id=1K2jb9BFw3hIMPgBb0Gv5-jwWAeNDoI5t"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: darkMode && '#fff' }}
+              >
+                <img src={darkMode ? resumedk : resume} alt="" className="i-icon" />
               </a>
             </div>
           </div>

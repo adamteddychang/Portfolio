@@ -12,14 +12,14 @@ const About = () => (
     <div className="a-right">
       <h1 className="a-title">About Me</h1>
       <p className="a-sub">
-        I am a Full-Stack Web Developer with a passion for creating and fixing.
+        I am a Full-Stack Web Developer with a passion for creating and fixing applications.
       </p>
       <p className="a-desc">
         I am an enthusiatic Web Developer that specializes in React & Redux, Ruby on Rails,
-        Javascript, and HTML/CSS.
+        JavaScript, and HTML/CSS.
         <br />
         I have been working remotely with developers from across the globe,
-        and I have excellent communication skills and I have developed applications in a team.
+        I have excellent communication skills and I have developed applications in a team.
 
       </p>
     </div>

@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 * {
-  /* font-family: 'Libre Bodoni', serif; */
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
-  color: inherit !important;
+
+  /* color: inherit !important; */
 }
