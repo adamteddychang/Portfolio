@@ -1,5 +1,5 @@
 .p {
-  width: 30%;
+  width: 45%;
   height: 40vh;
   margin: 20px 10px;
   border: 2px solid grey;
@@ -24,19 +24,80 @@
   background-color: #fff;
 }
 
-.p-img {
-  width: 100%;
-  transition: all 10s ease;
+.p-desc {
+  text-align: center;
 }
 
-.p:hover .p-img {
-  transform: translateY(-60%);
+.p-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  height: 12vh;
+}
+
+.p-t-t {
+  width: 80%;
+  margin-left: 5px;
+}
+
+.p-text p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.p-text h2 {
+  margin: 0;
+}
+
+.p-text a {
+  width: 30%;
+}
+
+#repo-link {
+  font-style: italic;
+  font-size: 20px;
+  color: #fff;
+}
+
+#repo-link:hover {
+  color: #90ee90;
+}
+
+#repo-light {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+}
+
+#repo-light:hover {
+  background-color: #90ee90;
+}
+
+.p-img {
+  width: 100%;
+  transition: all 12s ease;
+}
+
+.p a:hover .p-img {
+  transform: translateY(-80%);
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   .p {
-    width: 40%;
-    height: 20vh;
+    width: 80%;
+    height: 40vh;
   }
+
+  .p-text {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1400px )
+{ .p {
+  width: 30%;
+}
+  
 }
