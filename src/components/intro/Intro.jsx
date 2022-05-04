@@ -60,7 +60,7 @@ const Intro = () => {
 
               <a
                 className="i-link"
-                href="https://drive.google.com/uc?export=download&id=1K2jb9BFw3hIMPgBb0Gv5-jwWAeNDoI5t"
+                href="https://drive.google.com/uc?export=download&id=1noqyEp1yN8PPTbGr3AXUQlkG1O3Km2SX"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: darkMode && '#fff' }}
