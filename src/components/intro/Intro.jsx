@@ -21,9 +21,11 @@ const Intro = () => {
           <h1 className="i-name"> Adam Chang</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item" style={{ color: darkMode ? '#90ee90' : '#002e23' }}>Full-Stack Developer</div>
-              <div className="i-title-item" style={{ color: darkMode ? '#90ee90' : '#002e23' }}>Microverse Mentor</div>
+              <div className="i-title-item" style={{ color: darkMode ? '#90ee90' : '#002e23' }}>React Developer</div>
+              <div className="i-title-item" style={{ color: darkMode ? '#90ee90' : '#002e23' }}>Ruby on Rails Developer</div>
               <div className="i-title-item" style={{ color: darkMode ? '#90ee90' : '#002e23' }}>UI/UX Developer</div>
+              <div className="i-title-item" style={{ color: darkMode ? '#90ee90' : '#002e23' }}>Microverse Mentor</div>
+
             </div>
           </div>
           <p className="i-desc">

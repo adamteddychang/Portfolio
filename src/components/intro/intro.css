@@ -50,7 +50,7 @@ p {
 
 .i-title-wrapper {
   height: 100%;
-  animation: move 7s ease-in-out infinite alternate;
+  animation: move 8s ease-in-out infinite alternate;
 }
 
 .social-icons {
@@ -58,12 +58,15 @@ p {
 }
 
 @keyframes move {
-  50% {
+  33% {
     transform: translateY(-50px);
   }
 
-  100% {
+  67% {
     transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
   }
 }
 
