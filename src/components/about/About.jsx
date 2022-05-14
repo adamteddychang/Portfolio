@@ -1,11 +1,12 @@
 import './about.css';
+import cat from '../../img/cat_laptop.jpg';
 
 const About = () => (
   <div className="a">
     <div className="a-left">
       <div className="a-card bg" />
       <div className="a-card">
-        <img src="https://www.fairobserver.com/wp-content/uploads/2021/09/remote-work.jpg" alt="" className="a-img" />
+        <img src={cat} alt="" className="a-img" />
       </div>
 
     </div>
